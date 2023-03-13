@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class etkinlikOneri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int sıcaklık;
+		Scanner input= new Scanner(System.in);
+		
+		System.out.print("Sıcaklık değerini giriniz:");
+		sıcaklık = input.nextInt();
+		
+		if(5> sıcaklık){
+			System.out.print("kayak yapabilirsiniz ");
+			}
+		
+		else if (sıcaklık>=5  && sıcaklık <15) {
+			System.out.print("sinemaya gidebilirsiniz");
+
+		}
+		
+          else if (sıcaklık>=15  && sıcaklık <25) {
+			System.out.print(" pikniğe gidebilirsiniz");
+
+		}
+		if(25<= sıcaklık){
+			System.out.print("yüzebilirsiniz");
+			}
+	}
+
+}
